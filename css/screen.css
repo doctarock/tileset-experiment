@@ -1,0 +1,27 @@
+#joypad-left{
+	position:absolute;
+	bottom: 22%;
+	left: 0;
+	width:33%;
+	height:33%;
+	text-align:center;
+}
+#joypad-right{
+	position:absolute;
+	bottom: 33%;
+	right: 0;
+	width:33%;
+	height:33%;
+	text-align:center;
+}
+
+#joypad-left .row div, #joypad-right .row div{
+	padding:10%;
+	display:inline-block;
+	margin:5% auto;
+	background-color: #0000ff;
+    -ms-touch-action: none; /* Disables all pan/zoom behaviors and fire pointer events in JavaScript instead. */\
+}
+#left{float:left;}
+#right{float:right;}
+.row{clear:both;}
